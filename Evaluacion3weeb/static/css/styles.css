@@ -1,0 +1,70 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #74b9ff, #a29bfe);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Título */
+.form-container h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+/* Etiquetas */
+.form-container label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #2d3436;
+}
+
+/* Campos de entrada */
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botón */
+.form-container button {
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #341f97;
+}
+
+/* Resultado */
+.form-container p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #2d3436;
+}
+
